@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets — never commit
+*.key
+*secret*
+*credentials*
+.env
+.env.*
+!.env.example
+
+# Local notes
+NOTES.local.md
+TODO.local.md
