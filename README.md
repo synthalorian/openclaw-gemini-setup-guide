@@ -142,7 +142,7 @@ Pure cloud, zero local dependencies. Fastest to set up.
 }
 ```
 
-Free first pass on a self-hosted model; Gemini takes over when llama-server times out or hits a context overflow. This is what produced the working synthshark setup that this guide came out of.
+Free first pass on a self-hosted model; Gemini takes over when llama-server times out or hits a context overflow. This is what produced the working synthclaw setup that this guide came out of.
 
 **Pattern C — Per-agent override**
 
@@ -150,7 +150,7 @@ Free first pass on a self-hosted model; Gemini takes over when llama-server time
 "agents": {
   "list": [
     {
-      "id": "synthshark",
+      "id": "synthclaw",
       "model": {
         "primary": "gemini-api/gemini-2.5-flash",
         "fallbacks": ["llama-server/local-fallback"]
@@ -203,7 +203,7 @@ The line disappears from boot, and you reclaim port 9999.
 A clean response from Gemini in the TUI looks like:
 
 ```
-🎹🦈 Test confirmed — systems green, running on the full identity. What's up?
+🎹🦞 Test confirmed — systems green, running on the full identity. What's up?
  connected | idle
  agent <yours> | session tui-... | gemini-api/gemini-2.5-flash | tokens 3.5k/1.0m
 ```
@@ -277,3 +277,11 @@ The OpenAI-compat path (`generativelanguage.googleapis.com/v1beta/openai`) exist
 ## License
 
 MIT.
+
+---
+
+## ☕ Support the Developer
+
+If this project saved you time, solved a problem, or just made your day a little more neon, you can fuel the next one:
+
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://buymeacoffee.com/synthalorian)
