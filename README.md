@@ -276,7 +276,7 @@ The OpenAI-compat path (`generativelanguage.googleapis.com/v1beta/openai`) exist
 
 ## License
 
-MIT.
+Apache-2.0.
 
 ---
 
