@@ -142,7 +142,7 @@ Pure cloud, zero local dependencies. Fastest to set up.
 }
 ```
 
-Free first pass on a self-hosted model; Gemini takes over when llama-server times out or hits a context overflow. This is what produced the working blackclaw setup that this guide came out of.
+Free first pass on a self-hosted model; Gemini takes over when llama-server times out or hits a context overflow. This is what produced the working setup that this guide came out of.
 
 **Pattern C — Per-agent override**
 
@@ -150,7 +150,7 @@ Free first pass on a self-hosted model; Gemini takes over when llama-server time
 "agents": {
   "list": [
     {
-      "id": "blackclaw",
+      "id": "my-agent",
       "model": {
         "primary": "gemini-api/gemini-2.5-flash",
         "fallbacks": ["llama-server/local-fallback"]
