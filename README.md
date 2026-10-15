@@ -1,3 +1,5 @@
+![openclaw-gemini-setup-guide](.github/preview.png)
+
 # OpenClaw × Google Gemini 2.5 Flash Setup Guide
 
 A step-by-step recipe for wiring [OpenClaw](https://www.npmjs.com/package/openclaw) to **Google Gemini 2.5 Flash** via Google's native Generative Language API. Covers the working configuration, the `gemini-proxy` companion plugin (and when you actually need it), provider fallback chains, and the gotchas worth knowing before you start.
